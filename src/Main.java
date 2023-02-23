@@ -35,10 +35,10 @@ public class Main {
     }
     private static void mainMenu(Scanner sc) {
         System.out.println("Введите номер операции или end для завершения:");
-        System.out.println("\t 1. Добавить предмет покупки");
-        System.out.println("\t 2. Показать список покупок");
-        System.out.println("\t 3. Удалить предмет покупки");
-        System.out.println("\t 4. Найти предмет покупки");
+        System.out.println("1. Добавить предмет покупки");
+        System.out.println(" 2. Показать список покупок");
+        System.out.println(" 3. Удалить предмет покупки");
+        System.out.println(" 4. Найти предмет покупки");
         scanner = sc.nextLine();
     }
     private static void findItem(Scanner sc, ArrayList<String> list) {
